@@ -54,3 +54,8 @@ button{
 	background: #888888;
 	padding: 8px;
 }
+
+img.treeImg{
+	margin-left: -50%;
+	width: 1500px
+}

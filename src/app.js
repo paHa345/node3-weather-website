@@ -37,6 +37,13 @@ app.get('/about',(req, res)=>{
 	})
 })
 
+app.get('/tree',(req, res)=>{
+	res.render('tree', {
+		title:'Tree',
+		name:'paHa345'
+	})
+})
+
 
 app.get('/help',(req, res)=>{
 	res.render('help', {
