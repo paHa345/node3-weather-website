@@ -74,13 +74,8 @@ app.get('/weather', (req, res)=>{
 					address: req.query.address,
 					data: forecastData
 				})
-
-
 		})
-
 	})
-
-
 })	
 
 app.get('/help/*', (req, res)=>{
